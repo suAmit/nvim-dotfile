@@ -10,7 +10,7 @@ return {
     local wk = require("which-key")
     wk.add({
       mode = { "n", "v" },
-      { "<leader>s", group = "+Split/Search" },
+      { "<leader>s", group = "+Search" },
       { "<leader>t", group = "+Tab" },
       { "<leader>g", group = "+Git" },
       { "<leader>f", group = "+File" },

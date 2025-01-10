@@ -18,6 +18,7 @@
    - [Buffer Management](#buffer-management)
    - [Window Management](#window-management)
    - [Tab Management](#tab-management)
+   - [Outline](#outline)
    - [LSP Operations](#lsp-operations)
    - [Git Operations](#git-operations-gitsigns)
    - [Telescope](#telescope)
@@ -202,10 +203,10 @@ git clone https://github.com/suAmit/nvim-dotfile.git $HOME/.config/nvim
 
 | Keybinding   | Action                      |
 | ------------ | --------------------------- |
-| `<leader>sv` | Split window vertically     |
-| `<leader>sh` | Split window horizontally   |
-| `<leader>se` | Make splits equal size      |
-| `<leader>sx` | Close current split         |
+| `<leader>tv` | Split window vertically     |
+| `<leader>th` | Split window horizontally   |
+| `<leader>te` | Make splits equal size      |
+| `<leader>tc` | Close current split         |
 | `<c-h>`      | Navigate left (Tmux)        |
 | `<c-j>`      | Navigate down (Tmux)        |
 | `<c-k>`      | Navigate up (Tmux)          |
@@ -221,6 +222,12 @@ git clone https://github.com/suAmit/nvim-dotfile.git $HOME/.config/nvim
 | `<leader>tn` | Go to next tab                 |
 | `<leader>tp` | Go to previous tab             |
 | `<leader>tf` | Open current buffer in new tab |
+
+### Outline
+
+| Keybinding  | Action  |
+| ----------- | ------- |
+| `<leader>o` | Outline |
 
 ### LSP Operations
 
