@@ -225,9 +225,9 @@ git clone https://github.com/suAmit/nvim-dotfile.git $HOME/.config/nvim
 
 ### Outline
 
-| Keybinding  | Action  |
-| ----------- | ------- |
-| `<leader>o` | Outline |
+| Keybinding  | Action                  |
+| ----------- | ----------------------- |
+| `<leader>o` | Toggle/Untoggle Outline |
 
 ### LSP Operations
 
