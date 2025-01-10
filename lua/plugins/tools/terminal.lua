@@ -1,7 +1,7 @@
 return {
   "akinsho/toggleterm.nvim",
   keys = {
-    { "<A-i>" },
+    { "<A-l>" },
     {
       "<leader>lg",
       function()

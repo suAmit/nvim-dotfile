@@ -315,7 +315,7 @@ git clone https://github.com/suAmit/nvim-dotfile.git $HOME/.config/nvim
 | `<leader>lv` | Toggle vertical terminal   |
 | `<leader>lb` | Toggle terminal in new tab |
 | `<leader>lf` | Toggle floating terminal   |
-| `<A-i>`      | Toggle terminal            |
+| `<A-l>`      | Toggle terminal            |
 
 ### Todo Comments
 
@@ -367,6 +367,6 @@ git clone https://github.com/suAmit/nvim-dotfile.git $HOME/.config/nvim
 | `<leader>+`  | Increment number         |
 | `<leader>-`  | Decrement number         |
 | `<leader>ml` | Trigger linting          |
-| `<leader>mp` | Format file/range        |
+| `<leader>mf` | Format file/range        |
 | `<C-Space>`  | Init/increment selection |
 | `<bs>`       | Decrement selection      |
