@@ -1,5 +1,6 @@
 return {
   "folke/which-key.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
   event = "VeryLazy",
   init = function()
     vim.o.timeout = true
@@ -17,7 +18,7 @@ return {
       { "<leader>w", group = "+Session" },
       { "<leader>r", group = "+Todos" },
       { "<leader>x", group = "+Trouble" },
-      { "<leader>m", group = "+Lint/Formatte" },
+      { "<leader>m", group = "+Linting/Formatting" },
       { "<leader>a", group = "+Lsp" },
     })
   end,

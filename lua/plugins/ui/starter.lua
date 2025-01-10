@@ -48,6 +48,9 @@ end
 
 return {
   "echasnovski/mini.starter",
+  dependencies = {
+    "echasnovski/mini.nvim"
+  },
   config = function()
     local starter = require("mini.starter")
 

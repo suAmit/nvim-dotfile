@@ -172,6 +172,7 @@ return {
       "fileformat",
       fmt = string.upper,
       icons_enabled = true,
+      cond = conditions.hide_in_width,
       color = { fg = colors.green, gui = "bold" },
     })
 
